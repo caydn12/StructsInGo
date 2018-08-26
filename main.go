@@ -17,6 +17,9 @@ func main() {
 	cat.lastName = "Caterson"
 
 	fmt.Println(andy)
+	fmt.Printf("%+v\n", andy)
 	fmt.Println(brandon)
+	fmt.Printf("%+v\n", brandon)
 	fmt.Println(cat)
+	fmt.Printf("%+v\n", cat)
 }
